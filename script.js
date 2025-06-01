@@ -19,7 +19,7 @@ function getSum() {
   totalCell.textContent = "Total: Rs " + sum;
   totalRow.appendChild(totalCell);
 
-  document.getElementById("demo").appendChild(totalRow);
+  document.getElementById("ans").appendChild(totalRow);
 
   getSumBtn.disabled = true;
 }
